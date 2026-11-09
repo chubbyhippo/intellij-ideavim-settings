@@ -20,13 +20,11 @@ for config_path in \
     cp -f "$config_path"/options/colors.scheme.xml ./config/options/colors.scheme.xml
     cp -f "$config_path"/options/editor.xml ./config/options/editor.xml
     cp -f "$config_path"/options/laf.xml ./config/options/laf.xml
-    cp -f "$config_path"/options/mac/keymap.xml ./config/options/mac/keymap.xml
     cp -f "$config_path"/options/macros.xml ./config/options/macros.xml
     cp -f "$config_path"/options/postfixTemplates.xml ./config/options/postfixTemplates.xml
     cp -f "$config_path"/options/projectView.xml ./config/options/projectView.xml
     cp -f "$config_path"/options/ui-datetime.xml ./config/options/ui-datetime.xml
     cp -f "$config_path"/options/ui.lnf.xml ./config/options/ui.lnf.xml
-    cp -f "$config_path"/options/windows/keymap.xml ./config/option/windows/keymap.xml
 
     # save template
     cp -f "$config_path"/templates/javaJava.xml ./config/templates/javaJava.xml
